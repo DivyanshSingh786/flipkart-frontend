@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
-import { generatePublicUrl } from "../urlConfig";
+// import { generatePublicUrl } from "../urlConfig";
 import Card from "../components/Card";
 import CartItem from "../components/CardItem";
 import { addToCart, getCartItems, removeCartItem } from "../actions";
