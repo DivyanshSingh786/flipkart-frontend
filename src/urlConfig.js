@@ -4,7 +4,7 @@
 // }
 const baseUrl = "http://localhost:2000";
 
-export const api = `${baseUrl}/api`;
+export const api = `https://flipkart-backend-ft7h-ds66kx5i8-divyanshsingh786.vercel.app`;
 export const generatePublicUrl = (fileName) => {
   return `${baseUrl}/public/${fileName}`;
 };
