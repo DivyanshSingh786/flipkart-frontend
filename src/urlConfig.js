@@ -3,8 +3,9 @@
 //   return `http://localhost:2000/public/${fileName}`;
 // }
 // const baseUrl = "http://localhost:2000";
+ const baseUrl = "https://flipkart-backend-ft7h-3db62ug30-divyanshsingh786.vercel.app";
 
-export const api = `https://flipkart-backend-ft7h-3db62ug30-divyanshsingh786.vercel.app`;
+export const api = `${baseUrl}/api`;
 // export const generatePublicUrl = (fileName) => {
 //   return `${baseUrl}/public/${fileName}`;
 // };
